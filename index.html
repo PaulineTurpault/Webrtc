@@ -36,6 +36,37 @@
 <div class="copy">Send your URL to the student to start a video call</div>
 <video id="localVideo" autoplay muted></video>
 <video id="remoteVideo" autoplay></video>
+<div>
+    <label for="notes">Notes à propos de l'étudiant : </label>
+</div>
+
+<div>
+    <textarea id="notes" name="notes" rows="16" cols="90"></textarea>
+</div>
+
+<div>
+    <input type="button" value="Sauvegarder">
+</div>
+
+<div>
+    <p>Niveau de l'étudiant : </p>
+</div>
+
+<div>
+
+    <input type="radio" id="excellent" name="niveau" value="excellent">
+    <label for="excellent">Excellent</label>
+
+    <input type="radio" id="bon" name="niveau" value="bon">
+    <label for="bon">Bon</label>
+
+    <input type="radio" id="moyen" name="niveau" value="moyen">
+    <label for="moyen">Moyen</label>
+
+    <input type="radio" id="mauvais" name="niveau" value="mauvais">
+    <label for="mauvais">Mauvais</label>
+
+</div>
 <script src="script.js"></script>
 </body>
 </html>
